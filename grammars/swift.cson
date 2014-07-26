@@ -28,6 +28,7 @@
   'comment':
     'patterns': [
       {
+        'name': 'comment.block.swift'
         'begin': '/\\*'
         'beginCaptures':
           '0':
@@ -36,7 +37,6 @@
         'endCaptures':
           '0':
             'name': 'punctuation.definition.comment.end.swift'
-        'name': 'comment.block.swift'
         'patterns': [
           {
             'include': '#comment'
@@ -51,16 +51,16 @@
         'end': '(?!\\G)'
         'patterns': [
           {
+            'name': 'comment.line.double-slash.swift'
             'begin': '//'
             'beginCaptures':
               '0':
                 'name': 'punctuation.definition.comment.swift'
             'end': '\\n'
-            'name': 'comment.line.double-slash.swift'
             'patterns': [
               {
-                'match': '(?>\\\\\\s*\\n)'
                 'name': 'punctuation.separator.continuation.swift'
+                'match': '(?>\\\\\\s*\\n)'
               }
             ]
           }
