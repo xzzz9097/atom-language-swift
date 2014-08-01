@@ -23,6 +23,12 @@
   {
     'include': '#comment'
   }
+  {
+    'include': '#literal'
+  }
+  {
+    'include': '#operator'
+  }
 ]
 'repository':
   'comment':
