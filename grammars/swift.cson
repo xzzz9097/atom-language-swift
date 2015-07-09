@@ -33,6 +33,9 @@
   {
     'include': '#operator'
   }
+  {
+    'include': '#attribute'
+  }
 ]
 'repository':
   'comment':
@@ -306,3 +309,7 @@
               \\u0000 (?#            null)
             ]
       '
+  'attribute':
+    'name': 'storage.type.attribute.swift'
+    'begin': '@'
+    'end': ' '
