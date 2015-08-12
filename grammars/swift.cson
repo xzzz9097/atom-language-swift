@@ -139,6 +139,9 @@
       {
         'include': '#literal-string'
       }
+      {
+        'include': '#literal-boolean'
+      }
     ]
   'literal-number':
     'name': 'constant.numeric.swift'
@@ -230,6 +233,9 @@
         'include': '#quoted-text'
       }
     ]
+  'literal-boolean':
+    'match': '\\b(true|false)\\b(?![?!])'
+    'name': 'constant.language.boolean.swift'
   'operator':
     'patterns': [
         {
