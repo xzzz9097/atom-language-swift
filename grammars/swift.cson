@@ -18,6 +18,10 @@
     'match': '\\b(as|dynamicType|is|new|super|self|Self|Type|__COLUMN__|__FILE__|__FUNCTION__|__LINE__)\\b'
   }
   {
+    'name' : 'keyword.primitive-datatypes.swift'
+    'match' : '\\b(Int|UInt|String|Bool|Character|Optional|Float|Double)\\b'
+  }
+  {
     'name': 'keyword.reserved.swift'
     'match': '\\b(associativity|didSet|get|infix|inout|left|mutating|none|nonmutating|operator|override|postfix|precedence|prefix|right|set|unowned|unowned\(safe\)|unowned\(unsafe\)|weak|willSet)\\b'
   }
