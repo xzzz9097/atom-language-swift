@@ -22,6 +22,10 @@
     'match': '\\b(_)\\b'
   }
   {
+    'name' : 'keyword.primitive-datatypes.swift'
+    'match' : '\\b(Int|UInt|String|Bool|Character|Optional|Float|Double)\\b'
+  }
+  {
     'name': 'keyword.reserved.swift'
     'match': '\\b(associativity|convenience|dynamic|didSet|final|get|infix|lazy|left|mutating|none|nonmutating|optional|override|postfix|precedence|prefix|Protocol|required|right|set|Type|unowned|weak|willSet)\\b'
   }
