@@ -6,6 +6,12 @@
 'firstLineMatch': '^#!\\s*/.*\\bswift'
 'patterns': [
   {
+    'include': 'source.cpp'
+  }
+  {
+    'include': 'source.objc'
+  }
+  {
     'name': 'keyword.declaration.swift'
     'match': '\\b(class|deinit|enum|extension|import|init|inout|internal|let|operator|private|protocol|public|static|struct|subscript|typealias|var)\\b'
   }
@@ -23,7 +29,7 @@
   }
   {
     'name' : 'keyword.primitive-datatypes.swift'
-    'match' : '\\b(Int|UInt|String|Bool|Character|Optional|Float|Double)\\b'
+    'match' : '\\b(Int|Int32|Int16|Int8|UInt|UInt32|UInt16|UInt8|String|Bool|Character|Optional|Float|Double)\\b'
   }
   {
     'name': 'keyword.reserved.swift'
