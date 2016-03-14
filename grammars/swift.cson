@@ -29,7 +29,7 @@
   }
   {
     'name' : 'keyword.primitive-datatypes.swift'
-    'match' : '\\b(Int|Int32|Int16|Int8|UInt|UInt32|UInt16|UInt8|String|Bool|Character|Optional|Float|Double)\\b'
+    'match' : '\\b((U)?Int(8|16|32|64)|Int|UInt|String|Bool|Character|Optional|Float|Double|Dictionary|Array|Character|Range|Set|Bit)\\b'
   }
   {
     'name': 'keyword.reserved.swift'
