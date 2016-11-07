@@ -85,7 +85,7 @@
   }
   {
     'name': 'entity.name.function.swift'
-    'match': '\\bfunc\\s+([^\t\n \x28]+)'
+    'match': '\\bfunc\\s+([^\\t\\n\\x20\\x28]+)'
   }
   {
     'include': '#comment'
