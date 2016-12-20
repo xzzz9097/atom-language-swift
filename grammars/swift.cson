@@ -7,7 +7,7 @@
 'patterns': [
   {
     'name': 'keyword.others.swift'
-    'match': '^\\s*(#if|#else|#endif|#elseif|@warn_unused_result|@discardableResult|@IBAction|@IBOutlet|@IBDesignable|@IBInspectable|@available|@objc)\\b'
+    'match': '^\\s*(#if|#else|#endif|#elseif|@warn_unused_result|@discardableResult|@IBAction|@IBOutlet|@IBDesignable|@IBInspectable|@available|@objc)\\b|(#selector)\\b'
   }
   {
     'name': 'keyword.declaration.swift'
